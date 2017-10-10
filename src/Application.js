@@ -51,12 +51,12 @@ class Application {
         })
     }
 
-    addSearch(term) {
+    addSearch(terms) {
         const collection = this.db.collection('searches')
 
         const date = new Date();
 
-        collection.insertOne({ term: term, when: date.toISOString() }).catch((err) => {
+        collection.insertOne({ term: terms, when: date.toISOString() }).catch((err) => {
             console.log(err)
         })
     }
@@ -115,6 +115,7 @@ class Application {
                     if (err) {
                         reject(err)
                     } else {
+                        this.addSearch(terms)
                         const results = JSON.parse(res.text)
                         resolve(results.items)
                     }
