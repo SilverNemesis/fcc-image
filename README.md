@@ -6,7 +6,7 @@ You can check out the [running web service](https://sn-image.glitch.me/) to see 
 
 ## Prerequisites
 
-This project requires [Node.js](https://nodejs.org/en/) and [MongoDB](https://www.mongodb.com/) to be installed in order to be used.
+This project requires [Node.js](https://nodejs.org/en/) and [MongoDB](https://www.mongodb.com/) to be installed in order to be used.  It also requires a Google API key and Google custom search engine id, to generate the search results.
 
 ## Installing
 
