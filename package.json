@@ -1,0 +1,30 @@
+{
+  "name": "fcc-image",
+  "version": "1.0.0",
+  "description": "This is the Image Search Abstraction Layer that I created as my [Image Search Abstraction Layer](https://www.freecodecamp.org/challenges/image-search-abstraction-layer) project at [freeCodeCamp](https://www.freecodecamp.org).",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilverNemesis/fcc-image.git"
+  },
+  "author": "Donald Fries",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SilverNemesis/fcc-image/issues"
+  },
+  "homepage": "https://github.com/SilverNemesis/fcc-image#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "superagent": "^3.6.1"
+  },
+  "devDependencies": {
+    "jest": "^21.1.0",
+    "supertest": "^3.0.0"
+  }
+}
